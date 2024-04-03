@@ -1,0 +1,564 @@
+@charset "UTF-8";
+	
+.homepage {
+		width: 90%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}	
+	
+.container {
+  background-color: #FFFFFF;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-width: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.row {
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: inline-block
+}
+.row.blockDisplay {
+  display: block;
+}
+.column_half {
+  width: 50%;
+  float: left;
+  margin-top: 0px;
+}
+.columns {
+  width: 25%;
+  float: left;
+  font-family: "Source Sans Pro";
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.primary_header {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  clear: left;
+  border-bottom: 2px solid #FFFFFF;
+}
+.secondary_header {
+  padding-left: 100px;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
+}
+ul {
+  list-style-type: none; /* this removes the bullets from the list */
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline; /* this makes the links horizontal */
+}
+.nav {
+  display: table;
+  margin: 0 auto;
+}
+.navtext {
+  margin-top: 0px;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: auto;
+  font-family: "Avenir";
+  font-weight: bolder;
+  font-size: 80px;
+  color: #000000;
+  letter-spacing: 0px;
+  transition: all 0.3s linear;
+}
+.navtext:hover {
+  font-family: "Avenir";
+  font-weight: normal;
+}
+.left_article {
+  background-color: #FFFFFF;
+  width: 100%;
+  float: left;
+  font-family: "Source Sans Pro";
+  color: #020000;
+  padding-bottom: 15px;
+}
+.noDisplay {
+  display: none;
+}
+.container .left_article h3 {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 2%;
+  color: #141414;
+  font-weight: normal;
+  font-family: "Apple Chancery";
+  font-size: 22px;
+}
+.container .left_article p {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5px;
+  color: #141414;
+  font-family: "Apple Chancery";
+}
+.intro {
+  background-color: #FFFFFF;
+  padding-bottom: 35px;
+}
+.column {
+  width: 50%;
+  float: left;
+  background-color: #FFFFFF;
+}
+.intro .column h3 {
+  color: #000000;
+  text-align: left;
+  text-indent: 30px;
+  font-family: "Apple Chancery";
+  font-size: 30px;
+}
+.intro .column p {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  line-height: 15px;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80%;
+  margin-top: 4%;
+  font-family: "Arial";
+  font-size: 12px;
+}
+.footer {
+  background-color: #C8A4D3;
+  align-content: center
+}
+.title {
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+.placeholder {
+  /* [disabled]max-width: 400px;
+*/
+  /* [disabled]max-height: 200px;
+*/
+  width: 100%;
+  padding-top: 30px;
+  /* [disabled]padding-left: 19px;
+*/
+  padding-bottom: 30px;
+  height: 100%;
+}
+.left_half {
+  background-color: #52BAD5;
+}
+.container .column_half.left_half h2 {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  text-align: center;
+}
+.right_half {
+  background-color: #01B2D1;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  font-weight: bold;
+}
+.column_title {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.right {
+  text-align: center;
+  color: #000000;
+  text-transform: normal;
+  font-weight: lighter;
+  border-top-width: 2px;
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.thumbnail {
+  width: 100px;
+  border-radius: 200px;
+  height: 100px;
+  margin-left: auto;
+}
+.thumbnail_align {
+  text-align: center;
+}
+.social {
+  margin-right: auto;
+  margin-left: 35%;
+  width: 60%;
+  display: block;
+}
+.social_icon {
+  width: 25%;
+  text-align: center;
+  float: left;
+  transition: all 0.3s linear;
+  line-height: 0px;
+  padding-top: 7px;
+}
+.container .social .social_icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  opacity: 1.0;
+}
+.logo:hover {
+  opacity: 0.5;
+}
+.aboutpic {
+  width: 66%;
+  background-color: #FFFFFF;
+}
+@media (max-width: 320px) {
+	
+	.homepage {
+	width:10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+  .footer {
+    background-color: #C8A4D3;
+  }
+  ul {
+    list-style-type: none; /* this removes the bullets from the list */
+    margin: auto;
+    padding: 20px;
+  }
+  li {
+    display: inline; /* this makes the links horizontal */
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
+    opacity: 0.5;
+  }
+  .navtext {
+    display: table;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 0px;
+    width: auto;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 6px;
+    color: #000000;
+    letter-spacing: 0px;
+    transition: all 0.3s linear;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-weight: normal;
+  }
+  .secondary_header {
+    padding: 70px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
+  .left_article {
+    width: 100%;
+    height: auto;
+    font-family: "Avenir";
+  }
+  .placeholder {
+    width: 100%;
+    margin-top: 22PX;
+    margin-right: 0px;
+    margin-bottom: 22PX;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    max-width: 400px;
+    max-height: 200px;
+    height: auto;
+  }
+  .columns {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0PX;
+    padding-right: 0PX;
+    padding-bottom: 0PX;
+    padding-left: 0PX;
+  }
+  .columns p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .column_half.left_half {
+    width: 100%;
+  }
+  .column_half.right_half {
+    width: 100%;
+  }
+  .copyright {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .social .social_icon img {}
+  .thumbnail {
+    width: 50px;
+    height: 50px;
+  }
+  .intro .column p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 12px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    margin-top: 1%;
+    font-family: "Arial";
+    font-size: 10px;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .homepage {
+	width:60%;
+	   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+	
+	.footer {
+    background-color: #C8A4D3;
+  }
+  ul {
+    list-style-type: none; /* this removes the bullets from the list */
+    margin: auto;
+    padding: 10%;
+  }
+  li {
+    display: inline; /* this makes the links horizontal */
+  }
+  .navtext {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0px;
+    width: auto;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0px;
+    transition: all 0.3s linear;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-weight: normal;
+  }
+  .secondary_header {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
+  .left_article {
+    width: 100%;
+    height: auto;
+  }
+  .placeholder {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  .columns {
+    width: 100%;
+    margin-top: 6px;
+    margin-right: 0px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  .columns p {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .column_half.left_half {
+    width: 100%;
+  }
+  .column_half.right_half {
+    width: 100%;
+  }
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+  }
+  .intro .column p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 12px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+    margin-top: 1%;
+    font-family: "Arial";
+    font-size: 10px;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
+    opacity: 0.5;
+  }
+}
+@media (min-width : 769px) and (max-width : 2000px) {
+  
+	.homepage {
+		width: 90%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+	}
+	
+	.footer {
+    background-color: #C8A4D3;
+  }
+  ul {
+    list-style-type: none; /* this removes the bullets from the list */
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  li {
+    display: inline; /* this makes the links horizontal */
+	align-content: center;
+  }
+  .nav {
+    display: inline;
+    margin: 300px;
+  }
+  .navtext {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-align: center;
+    font-family: "Avenir";
+    font-weight: bolder;
+    font-size: 45px;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+  .navtext:hover {
+    font-family: "Avenir";
+    font-style: normal;
+  }
+  .secondary_header {
+    padding-left: 32px;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    background-color: #FFFFFF;
+  }
+  .left_article {
+    height: auto;
+  }
+  .right_article {
+    height: auto;
+    padding-bottom: 27px;
+  }
+  .placeholder {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .columns {
+    width: 50%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .container .columns p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1.0;
+  }
+  .logo:hover {
+    opacity: 0.5;
+  }
+}

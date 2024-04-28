@@ -258,9 +258,6 @@ body {
     margin-right: auto;
 	}
 
-  .footer {
-    background-color: #C8A4D3;
-  }
   ul {
     list-style-type: none; /* this removes the bullets from the list */
     margin: auto;
@@ -484,9 +481,7 @@ body {
    
 	}
 	
-	.footer {
-    background-color: #C8A4D3;
-  }
+	
   ul {
     list-style-type: none; /* this removes the bullets from the list */
     margin: 0;
